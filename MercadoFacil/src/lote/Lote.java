@@ -1,12 +1,15 @@
+package lote;
+import java.util.Date;
 
+import produto.Produto;
 
 public class Lote {
 	
 	private int quantidade;
-	private String dataValidade;
+	private Date dataValidade;
 	Produto produto;
 	
-	public Lote(int quantidade, String dataValidade, Produto produto) {
+	public Lote(int quantidade, Date dataValidade, Produto produto) {
 		this.quantidade = quantidade;
 		this.dataValidade = dataValidade;
 		this.produto = produto;
@@ -18,10 +21,10 @@ public class Lote {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
-	public String getDataValidade() {
+	public Date getDataValidade() {
 		return dataValidade;
 	}
-	public void setDataValidade(String dataValidade) {
+	public void setDataValidade(Date dataValidade) {
 		this.dataValidade = dataValidade;
 	}
 

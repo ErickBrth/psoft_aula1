@@ -1,11 +1,10 @@
+package produto;
 
 public class Produto {
 	
 	private String nome;
 	private String fabricante;
 	private double preco;
-	
-	
 	
 	public Produto(String nome, String fabricante, double preco) {
 		super();
@@ -35,7 +34,7 @@ public class Produto {
 	
 	@Override
 	public String toString() {
-		return "Produto [ nome=" + nome + ", fabricante=" + fabricante + "]";
+		return "Produto [ nome=" + nome + ", fabricante=" + fabricante + ", Preco=" + preco + "]";
 	}
 	
 	
